@@ -8,6 +8,7 @@ namespace PuppeteerSharp;
 /// Type of the <see cref="Initiator"/>.
 /// </summary>
 [JsonConverter(typeof(JsonStringEnumMemberConverter<InitiatorType>))]
+[DefaultEnumValue((int)Other)]
 public enum InitiatorType
 {
     /// <summary>
